@@ -6,10 +6,10 @@ https://github.com/tannguyen16/SE-440-hw8-spring-petclinic
 See [Dockerfile](Dockerfile)
 
 2. 5 pts Your running docker instance as shown by a ps command.
-![Docker-1](images/Docker-1.PNG)
+![Docker-1](images/docker-1.PNG)
 
 3. 5 pts Your browser accessing the main page of the website from your local container.
-![Docker-2](images/Docker-2.PNG)
+![Docker-2](images/docker-2.PNG)
 
 # DOCKER COMPOSE - MYSQL ONLY
 4. 5 pts Your GitHub repository with the readme.md file selected showing the build success status after you’ve updated the badge markdown.
