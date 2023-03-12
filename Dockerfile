@@ -8,4 +8,4 @@ EXPOSE 8080/tcp
 ADD target/spring-petclinic-2.2.0.BUILD-SNAPSHOT.jar .
 
 # Set the entrypoint to run the JAR when the container is started
-ENTRYPOINT ["java", "-jar", "spring-petclinic-2.2.0.BUILD-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-jar", "spring-petclinic-2.2.0.BUILD-SNAPSHOT.jar", "--spring.profiles.active=mysql"]
